@@ -388,6 +388,8 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    CTA: Schema.Attribute.Blocks;
+    FAQ: Schema.Attribute.Component<'shared.faq', true>;
     image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true

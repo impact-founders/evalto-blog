@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

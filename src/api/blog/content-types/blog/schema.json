@@ -34,6 +34,14 @@
       "type": "component",
       "component": "shared.seo",
       "repeatable": true
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "CTA": {
+      "type": "blocks"
     }
   }
 }
